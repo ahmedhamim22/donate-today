@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 0%;
+}
+
+.banner img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 720px;
+    width: 100%;
+}
+
+.banner h1 {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner p {
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    top: 60%;
+    left: 60%;
+    text-align: center;
+    transform: translate(-70%, -60%);
+}
+
+.link-button {
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(255, 47, 179);
+    color: white;
+    left: 45%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 500px;
+}
+
+.donate-area {
+    height: 760px;
+}
+
+.donate-today h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.donate-today p {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.flex-box {
+    width: 150px;
+    height: 100px;
+    background-color: #EAF6F6;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 6px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.newdonete {
+    background: rgb(255, 47, 179);
+    border: solid 3px black;
+}
+
+.otherdonate-amount {
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+}
+
+hr {
+    width: 30%;
+    color: solid gray 2px;
+    margin-bottom: 40px;
+}
+
+.amount-button {
+    text-decoration: none;
+    background-color: rgb(255, 47, 179);
+    color: white;
+    left: 30%;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.donateplan {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.donateplan p {
+    color: grey;
+    font-size: 18px;
+}
+
+
+.lastfooter {
+    border: 10px;
+    text-align: center;
+    background-color: black;
+    color: cyan;
+    padding-bottom: 2%;
+    padding-top: 30px;
+}
